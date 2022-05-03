@@ -94,9 +94,7 @@ We'll go through all of the important elements (commands) that were employed in 
  
  **3. -f(force):** *If the system can't open the destination file because the user doesn't have writing permission, the -f option is used to destroy the file first, then copy the content from the source to the destination.*
  
- **4. -r or -R:** *The directory structure is being copied. The cp command copies the entire directory structure recursively with this option.*
- 
- **5. -p(preserve):** *Cp preserves the properties of each source file (permission bits, ownership, etc.) in the matching destination file when using the -p option.*
+ **4. -p(preserve):** *Cp preserves the properties of each source file (permission bits, ownership, etc.) in the matching destination file when using the -p option.*
 
 ``` history ```
 
@@ -106,19 +104,14 @@ We'll go through all of the important elements (commands) that were employed in 
 
 **1. -c:** *Delete all of the entries in the history list to clear it.*
 
-**2. -d offset:** *Delete the history entry at offset OFFSET*
+**2. -a:** *Add the lines from this session's history to the history file.*
 
-**3. -a:** *Add the lines from this session's history to the history file.*
+**3. -n:** *Read all history lines from the history file that haven't already been read.*
 
-**4. -n:** *Read all history lines from the history file that haven't already been read.*
+**4. -r:** *Read the contents of the history file and add them to the history list.*
 
-**5. -r:** *Read the contents of the history file and add them to the history list.*
+**5. -w:** *Append the current history to the history list by writing it to the history file.*
 
-**6: -w:** *Append the current history to the history list by writing it to the history file.*
-
-**7. -p:** *Expand each ARG's history and display the result without saving it in the history list.*
-
-**8. -s:** *Add the ARGs as a single entry to the history list.*
 
 ``` free ```
 
@@ -136,21 +129,12 @@ We'll go through all of the important elements (commands) that were employed in 
 
 **5. tera:** *It displays the amount of memory in terabytes.*
 
-**6. -h, human:** *All output columns are automatically scaled to the smallest three-digit unit, and the units of print out are also displayed. B (bytes), K (kilos), M (megas), G (gigas), and T (terabytes) are the units utilized (teras).*
+**6. -t, total:** *It adds a line to the output that shows the column totals.*
 
-**7. -c, count:** *It repeats the output c times and this option is compatible with the -s option.*
+**7. -h, human:** *All output columns are automatically scaled to the smallest three-digit unit, and the units of print out are also displayed. B (bytes), K (kilos), M (megas), G (gigas), and T (terabytes) are the units utilized (teras).*
 
-**8. -l, lohi:** *t shows the detailed low and high memory statistics.*
+**8. -c, count:** *It repeats the output c times and this option is compatible with the -s option.*
 
-**9. -o, old:** *This option turns off the buffer adjusted line's display.*
-
-**10. -s, seconds:** *This option allows you to continuously display the output after a delay of s seconds. In practice, the usleepsystem function is used to calculate microsecond delay periods.*
-
-**11. -t, total:** *It adds a line to the output that shows the column totals.*
-
-**12. -help:** *It displays a help message and exit.*
-
-**13. -v, version:** *It exits after displaying version information.*
 
 ``` fortune/ Random Quotes```
 *Randomly displays frightening, uplifting, silly, or sarcastic statements from a quotation database.*
@@ -163,19 +147,13 @@ We'll go through all of the important elements (commands) that were employed in 
 
 **3. -f:** *Do not print a fortune; instead, publish a list of all fortune files that would have been searched.*
 
-**4. -i:** *Make regular expression searching case-insensitive when used with -m.*
+**4. -l:** *Only use quotations that are longer than the -n length, or 160 characters if -n is not supplied.*
 
-**5. -l:** *Only use quotations that are longer than the -n length, or 160 characters if -n is not supplied.*
+**5. -n:** *[length] Override the length used by -l and -s to determine whether a message is "long" or "short" (default 160 characters).*
 
-**6. -m:** *[pattern] Print all fortunes matching the regular expression specified in [pattern]*
+**6. -s:** *Only utilize quotations that are less than the length supplied by -n, or 160 characters if -n is not specified.*
 
-**7. -n:** *[length] Override the length used by -l and -s to determine whether a message is "long" or "short" (default 160 characters).*
-
-**8. -o:** *Only use databases that are "offensive."*
-
-**9. -s:** *Only utilize quotations that are less than the length supplied by -n, or 160 characters if -n is not specified.*
-
-**10.-w:** *Wait a certain amount of time before terminating; this is important in instances when a fortune must be read before the screen is cleared.*
+**7.-w:** *Wait a certain amount of time before terminating; this is important in instances when a fortune must be read before the screen is cleared.*
 
 ``` vfork```
 
