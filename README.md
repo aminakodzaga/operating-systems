@@ -132,7 +132,7 @@ We'll go through all of the important elements (commands) that were employed in 
 
 **3. -m, mega:** *It shows how much memory you have in megabytes.*
 
-**4. -g,giga:** *It shows how much memory you have in gigabytes.*
+**4. -g, giga:** *It shows how much memory you have in gigabytes.*
 
 **5. tera:** *It displays the amount of memory in terabytes.*
 
