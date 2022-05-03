@@ -157,31 +157,32 @@ We'll go through all of the important elements (commands) that were employed in 
 
 *Options:*
 
-**1. -a** *Select from any database, regardless of whether or not it is judged "offensive."*
+**1. -a:** *Select from any database, regardless of whether or not it is judged "offensive."*
 
-**2. -e** *Make the chance of picking a fortune file equal to the chance of picking any other file.*
+**2. -e:** *Make the chance of picking a fortune file equal to the chance of picking any other file.*
 
-**3. -f** *Do not print a fortune; instead, publish a list of all fortune files that would have been searched.*
+**3. -f:** *Do not print a fortune; instead, publish a list of all fortune files that would have been searched.*
 
-**4. -i** *Make regular expression searching case-insensitive when used with -m.*
+**4. -i:** *Make regular expression searching case-insensitive when used with -m.*
 
-**5. -l** *Only use quotations that are longer than the -n length, or 160 characters if -n is not supplied.*
+**5. -l:** *Only use quotations that are longer than the -n length, or 160 characters if -n is not supplied.*
 
-**6. -m** *[pattern] Print all fortunes matching the regular expression specified in [pattern]*
+**6. -m:** *[pattern] Print all fortunes matching the regular expression specified in [pattern]*
 
-**7. -n** *[length] Override the length used by -l and -s to determine whether a message is "long" or "short" (default 160 characters).*
+**7. -n:** *[length] Override the length used by -l and -s to determine whether a message is "long" or "short" (default 160 characters).*
 
-**8. -o** *Only use databases that are "offensive."*
+**8. -o:** *Only use databases that are "offensive."*
 
-**9. -s** *Only utilize quotations that are less than the length supplied by -n, or 160 characters if -n is not specified.*
+**9. -s:** *Only utilize quotations that are less than the length supplied by -n, or 160 characters if -n is not specified.*
 
-**10.-w** *Wait a certain amount of time before terminating; this is important in instances when a fortune must be read before the screen is cleared.*
+**10.-w:** *Wait a certain amount of time before terminating; this is important in instances when a fortune must be read before the screen is cleared.*
 
 ``` vfork```
 
 *Vfork() is a system call that starts a new process. Because both processes share the same address space, child process suspends parent process execution until child process completes its execution, whereas fork() child and parent processes have independent memory spaces.*
 
 ```forkbomb```
+
 *A fork bomb is a type of denial-of-service (DoS) attack that targets a Linux system. To fill memory, it forks processes indefinitely.*
 
 ## Instructions for compiling
