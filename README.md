@@ -82,9 +82,12 @@ Unix/Windows examples:
 
 ## Outline of the Assignment
 We'll go through all of the important elements (commands) that were employed in the shell's implementation in the explanation.
+
 ``` cp ```
-*This command copies files, groups of files, or directories.
-Options: *
+
+*This command copies files, groups of files, or directories.*
+*Options: *
+
  **1. -i(interactive):** *Interactive copying is represented by the letter i. Before overwriting the target file, the system warns the user with this choice.*
  
  **2. -b(backup):** *The cp command creates a backup of the destination file in the same folder when this option is used.*
