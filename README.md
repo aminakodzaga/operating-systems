@@ -7,7 +7,7 @@ Fatima Ademović
 ## Files 
 shell.c
 ## Answers from Task 1.5
-## Q1:Do the following actions require the OS to use kernel mode or user mode is sufficient?
+## Q1: Do the following actions require the OS to use kernel mode or user mode is sufficient?
 ● A program wishes to read data from the hard drive. 
 A ```read``` usually necessitates a hardware connection. Hardware access is time-consuming and error-prone, and it might cause the computer to become unusable. 
 The operating system uses drivers to control the computer's hardware.
@@ -45,7 +45,6 @@ Unix/Windows examples:
 
 ``` ●write()/WriteFile() ```
 
-``` ●close()/CloseHandle() ```
 
 ## *3. Device Management:*
 When a process is running, it necessitates the use of a number of resources in order to complete its task. These resources include main memory, hard drives, data, and so forth. If the resource is available, it is assigned to the process. Once the resource has been allocated to the device, the process can read, write and move it.
@@ -65,16 +64,12 @@ Unix/Windows examples:
 
 ``` ●getpid()/GetCurrentProcessID() ```
 
-``` ●alarm()/SetTimer() ```
-
 ``` ●sleep()/Sleep() ```
 
 ## *5. Communication:*
 Processes in the system communicate with one another. The two communication models are message queue and shared memory. For message transfer, the sender process links to the receiving process by supplying the receiving process name or identity. The system disconnects the communicating processes once the conversation is concluded.
 
 Unix/Windows examples:
-
-``` ●pipe()/CreatePipe() ```
 
 ``` ●mmap()/MapViewOfFile() ```
 
@@ -108,10 +103,7 @@ We'll go through all of the important elements (commands) that were employed in 
 
 **3. -n:** *Read all history lines from the history file that haven't already been read.*
 
-**4. -r:** *Read the contents of the history file and add them to the history list.*
-
-**5. -w:** *Append the current history to the history list by writing it to the history file.*
-
+**4. -w:** *Append the current history to the history list by writing it to the history file.*
 
 ``` free ```
 
@@ -131,9 +123,7 @@ We'll go through all of the important elements (commands) that were employed in 
 
 **6. -t, total:** *It adds a line to the output that shows the column totals.*
 
-**7. -h, human:** *All output columns are automatically scaled to the smallest three-digit unit, and the units of print out are also displayed. B (bytes), K (kilos), M (megas), G (gigas), and T (terabytes) are the units utilized (teras).*
-
-**8. -c, count:** *It repeats the output c times and this option is compatible with the -s option.*
+**7. -c, count:** *It repeats the output c times and this option is compatible with the -s option.*
 
 
 ``` fortune/ Random Quotes```
@@ -149,11 +139,9 @@ We'll go through all of the important elements (commands) that were employed in 
 
 **4. -l:** *Only use quotations that are longer than the -n length, or 160 characters if -n is not supplied.*
 
-**5. -n:** *[length] Override the length used by -l and -s to determine whether a message is "long" or "short" (default 160 characters).*
+**5. -s:** *Only utilize quotations that are less than the length supplied by -n, or 160 characters if -n is not specified.*
 
-**6. -s:** *Only utilize quotations that are less than the length supplied by -n, or 160 characters if -n is not specified.*
-
-**7.-w:** *Wait a certain amount of time before terminating; this is important in instances when a fortune must be read before the screen is cleared.*
+**6.-w:** *Wait a certain amount of time before terminating; this is important in instances when a fortune must be read before the screen is cleared.*
 
 ``` vfork```
 
