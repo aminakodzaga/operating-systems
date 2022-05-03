@@ -86,7 +86,7 @@ We'll go through all of the important elements (commands) that were employed in 
 ``` cp ```
 
 *This command copies files, groups of files, or directories.*
-*Options: *
+*Options:*
 
  **1. -i(interactive):** *Interactive copying is represented by the letter i. Before overwriting the target file, the system warns the user with this choice.*
  
